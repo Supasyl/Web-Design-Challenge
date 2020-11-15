@@ -1,0 +1,19 @@
+h1 {
+    font-size: 40pt;
+    color: lightpink;
+    background-color: purple;
+}
+h2 {
+    font-size: 30pt;
+    color: lightpink;
+    background-color: purple;
+}
+table {
+    border-collapse: collapse;
+    width: fit-content;
+}
+td {
+    text-align: left;
+}
+tr:nth-child(even) {background-color: lightcyan;}
+tr:hover {background-color: cyan;}

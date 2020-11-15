@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' type='text/css' href='stylesheet.css'>
+    <title>Syls WeatherPy website</title>
+</head>
+
+<body>
+
+    <section>
+        <h1>Summery: Latitude vs weather factors</h1>
+        <hr>
+        <figure>
+            <img src='Resources/Latitude vs Temperature plot.png' width='200' alt='Latitute vs Temperature plot'>
+        </figure>
+        <p>
+            We ask ourselves: "What is the weather like as we approach the equator?" We have done some research to see if we can answer that question, in stead of just the hunch that it is hotter near the equator. We will look at four weather factors; temperature, humidity, cloudiness and wind speed in relation to the lines of latitude. The research is based on over 600 randomly chosen cities around the world. The spread of these cities is based on the percentage of cities per 20 degrees of latitude.
+        </p>
+        <p>
+            The weather information was randomly pulled from the OpenWeather Map API. The source data can be viewed on this site as well as the scatterplots showing the results of each weather factor. The data is then split into northern and southern hemosphere which allows us to zoom further into the question of correlation to provide further insights. We have then used a linear regession model to provide the correlation of each of the weather factors in percentage to the latitude.
+        </p>
+    </section>
+
+    <section>
+        <h2>Visualisations</h2>
+        <a href='Latitude vs Cloudiness.html' target='_blank'>
+            <img src="Resources/Latitude vs Cloudiness plot.png" width= "" alt="">
+        </a>
+        <a href='Latitude vs Humidity.html' target='_blank'>
+            <img src="Resources/Latitude vs Humidity plot.png" width= "" alt="">
+        </a>
+        <a href='Latitude vs Temperature.html' target='_blank'>
+            <img src="Resources/Latitude vs Temperature plot.png" width= "" alt="">
+        </a>
+        <a href='Latitude vs Wind speed.html' target='_blank'>
+            <img src="Resources/Latitude vs Wind_speed plot.png" width= "" alt="">
+        </a>
+    </section>
+</body>
+</html>
