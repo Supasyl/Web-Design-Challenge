@@ -10,7 +10,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -41,44 +41,34 @@
 
     <div class="container">
         <div class='row'>
-            <div class='col-12'> <h1>Latitude vs Humidity</h1></div>
+            <div class='col-12'> <h1>Latitude vs weather factors</h1></div>
         </div>
-        <hr>
-        <div class='row'>             
-            <div class="col-lg-8">
+        <div class="row" >
+            <div class='col-xl-10-auto'>
                 <div class='box'>
-                    <figure>
-                        <img src='Resources/Latitude vs Humidity plot.png' class='float-left' width='500' alt='Latitute vs Humidity plot'>
-                    </figure>
+                    <h2>Conclusion</h2>
                     <p>
-                        The plot shows the cities humidity in relation to the latitude. Common sence expects the highest humidity in the tropics. The tropics are located between about 20 degrees north and 20 degrees south of the equator.        
-                    </p>
-                    <p>
-                        The plot doesn't really show that the highest humidity is between -20 and 20 degrees latitude. It does show that along the equator there are no points with a humidity lower than 60%.        
+                        The only weather factor that has a correlation to the equator is the temperature. And that correlation is only 46% in the northern hemosphere and 43% in the southern hemosphere, which is considered a weak correlation. Please do check the limitations of this dataset as it may well have contributed to this conclusion.
                     </p>
                 </div>
             </div>
-            <div class='col-lg-4'>
-                <div class="box visualisations1">
-                    <div><h2>Visualisations</h2>
-                    </div>
-                    <hr>
-                        <div class='row'>
-                            <div class='col-xl-12'>
-                                <a href='Latitude vs Cloudiness.html'>
-                                    <img src="Resources/Latitude vs Cloudiness plot.png" width="170" alt="Cloudiness Plot">
-                                </a>
-                                <a href='Latitude vs Humidity.html'>
-                                    <img src="Resources/Latitude vs Humidity plot.png" width="170" alt="Humidity Plot" class='img1'>
-                                </a>
-                                <a href='Latitude vs Temperature.html'>
-                                    <img src="Resources/Latitude vs Temperature plot.png" width='170px' alt="Temperature plot">
-                                </a>
-                                <a href='Latitude vs Wind speed.html'>
-                                    <img src="Resources/Latitude vs Wind_speed plot.png" width='170px' alt="Wind speed plot">
-                                </a>
-                            </div>
-                        </div>
+            <div class='col-xl-10-auto'>
+                <div class='box'>
+                    <h2>limitations</h2>
+                    <p>
+                        Please note that for all plots and conclusions , the following limitations are applicable to this dataset:
+                        <ul>
+                            <li>
+                                The weather information was all taken at the same date. This means that in some parts of the world it is summer and in other parts it is winter. The date the wather data was taken is 11 October 2020. In WA that is spring, in Europe it is in the fall.
+                            </li>
+                            <li>
+                                The weather information was all taken at the same time. This means that in some parts of the world it is day and in other parts it is night. The time the weather data was taken is 10:25am in the UK. Here in WA that is 6:25pm.
+                            </li>
+                            <li>
+                                For the temperature the maximum temperature was used so the time of the day doesn't affect the outcome.
+                            </li>
+                        </ul>
+                    </p>
                 </div>
             </div>
         </div>

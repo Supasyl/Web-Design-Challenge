@@ -1,12 +1,37 @@
+.navbar {
+    background-color: seashell !important;
+}
+html {
+    background-color: seashell;
+}
+body {
+    background-color: seashell;
+}
+.navbar-brand {
+    color: lightpink !important;
+    background-color: purple;
+    padding-right: 10pt;
+    padding-left: 10pt;
+}
+ul {
+    color: purple !important;
+}
 h1 {
     font-size: 40pt;
+    text-align: center;
     color: lightpink;
     background-color: purple;
 }
 h2 {
     font-size: 30pt;
+    text-align: center;
     color: lightpink;
     background-color: purple;
+}
+h3 {
+    font-size: 30pt;
+    text-align: center;
+    color: purple;
 }
 table {
     border-collapse: collapse;
@@ -17,3 +42,28 @@ td {
 }
 tr:nth-child(even) {background-color: lightcyan;}
 tr:hover {background-color: cyan;}
+
+.box {
+    background-color: rgb(248, 221, 202);
+}
+
+.row.vis1 {
+    visibility: visible;
+}
+.col-xl-12.vis2 {
+    visibility: hidden;
+}
+.img1 {
+    border: 2px solid purple;
+
+}
+
+@media (max-width: 960px) {
+    .navbar {
+        background-color: purple !important;
+        margin-bottom: 15px;
+    }
+    .collapse {
+        background-color: seashell;
+    }
+}
