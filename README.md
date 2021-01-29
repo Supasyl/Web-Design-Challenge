@@ -1,5 +1,5 @@
 # Web-Design-Challenge
-11 Homework - Web Visualisations
+11 Homework - Web Visualisations (visualisation of week 6 homework)
 
 Screenshots of the website:
 ![Summery](Website_screenshots/Summery_plot.png)
