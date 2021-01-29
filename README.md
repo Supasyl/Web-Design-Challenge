@@ -2,8 +2,8 @@
 11 Homework - Web Visualisations
 
 Screenshots of the website:
-[Summery](Website_screenshots/Summery_plot.png)
-[Visualisation](Website_screenshots/Visualisation.png)
-[Comparison](Website_screenshots/Comparison.png)
-[Conclusion_and_limitations](Website_screenshots/Conclusion_and_limitations.png)
-[Source_data](Website_screenshots/Source_data.png)
+![Summery](Website_screenshots/Summery_plot.png)
+![Visualisation](Website_screenshots/Visualisation.png)
+![Comparison](Website_screenshots/Comparison.png)
+![Conclusion_and_limitations](Website_screenshots/Conclusion_and_limitations.png)
+![Source_data](Website_screenshots/Source_data.png)
